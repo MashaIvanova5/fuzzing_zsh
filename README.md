@@ -1,17 +1,21 @@
 # fuzzing_zsh
 # Лабораторная работа № 1
- Скачиваем проект 
- 
- ![изображение](https://github.com/user-attachments/assets/eb5b7274-917a-4801-8b0d-56786d9a4861)
+![изображение](https://github.com/user-attachments/assets/3d269b2c-cdf4-45ba-a13c-84dcd6e4d46a)
+
+
  
  Получим хэш последнего коммита 
  
  ![изображение](https://github.com/user-attachments/assets/c754d2de-f6ba-4c49-beb7-5d428e81fbb6)
 
  # Лабораторная работа № 2
- 
+  Скачиваем проект 
  git clone https://github.com/AFLplusplus/AFLplusplus.git
 cd AFLplusplus/
+
+ ![изображение](https://github.com/user-attachments/assets/eb5b7274-917a-4801-8b0d-56786d9a4861)
+ 
+ 
 ls
 make
 
