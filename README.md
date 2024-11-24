@@ -53,7 +53,12 @@ mkdir input
 cd input/
 echo "Hello, test" > test1.txt
 echo "Hello, testing 2" > test2.txt
-![изображение](https://github.com/user-attachments/assets/62bbb8d7-2aba-4016-8937-4fac8cd0d080)
+```
+![изображение](https://github.com/user-attachments/assets/fef9258d-d8c5-482b-be46-78425a660968)
+
+Запустим фаззинг 
+
+```
 /home/masha/fuzzing/AFLplusplus/afl-fuzz -i /home/masha/fuzzing/input/ -o /home/masha/fuzzing/out/ -- ./zsh @@
 ```
 
@@ -61,8 +66,10 @@ echo "Hello, testing 2" > test2.txt
 
 ![изображение](https://github.com/user-attachments/assets/eee1339a-d9a1-4c1d-a790-47b1c8700aa9)
 
+```
 sudo apt install gnuplot
 afl-plot ./out/default/ plot_data
+```
 
 ![изображение](https://github.com/user-attachments/assets/41ed5170-46c8-4687-9d55-5dcebb0a4d1c)
 
@@ -78,7 +85,8 @@ afl-plot ./out/default/ plot_data
 
 ```
 make clean
-``
+
+```
 
 Cоберем компиляторы для покртыия
 
